@@ -3,7 +3,7 @@ FROM ubuntu:latest
 LABEL version="1.10"
 LABEL maintainer="Steve Guo <steve.guo@thunes.com>"
 
-ENV DEBIAN_FRONTEND="noninteractive" TZ="Africa/Dakar"
+ENV DEBIAN_FRONTEND="noninteractive" TZ="Etc/UTC"
 
 RUN apt-get update \
     && apt-get -y install build-essential git curl zip runit \
