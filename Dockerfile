@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM arm64v8/ubuntu:latest
 
 LABEL version="1.10"
 LABEL maintainer="Steve Guo <steve.guo@thunes.com>"
